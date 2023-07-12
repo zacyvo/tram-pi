@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.absolute {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.absolute img {
+  filter: invert(0) sepia(1) saturate(41) hue-rotate(-30deg) brightness(0.7) contrast(121%)
+}
+
+.text-message {
+  padding: 20px;
+  background-image: url("./assets/bg_heart.png");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: antiquewhite;
+}
