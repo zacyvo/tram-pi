@@ -55,7 +55,7 @@ const getTimeHours = (time) => ((time % daySeconds) / hourSeconds) | 0;
 const getTimeDays = (time) => (time / daySeconds) | 0;
 
 export default function Countdown() {
-  const timeDifference = moment('2023-07-14 17:00:00.000').diff(moment(), 'seconds')
+  const timeDifference = moment('2023-07-14 19:00:00.000').diff(moment(), 'seconds')
   const remainingTime = timeDifference;
   const days = Math.ceil(remainingTime / daySeconds);
   const daysDuration = days * daySeconds;

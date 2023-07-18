@@ -37,7 +37,7 @@ function App() {
 
   useEffect(()=>{
     const interval = setTimeout(() => {
-      const timeDifference = moment('2023-07-14 15:00:00.000').diff(moment(), 'seconds');
+      const timeDifference = moment('2023-07-14 19:00:00.000').diff(moment(), 'seconds');
       setCountTime(!(timeDifference > 0))
     }, 1000);
     return () => clearInterval(interval);
